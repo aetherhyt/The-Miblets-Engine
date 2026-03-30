@@ -5,7 +5,6 @@ This ZIP contains a minimal real-code bootstrap for:
 - GLFW window creation
 - Vulkan instance/device/swapchain setup
 - Clear-color render loop
-- AGENTS.md for future engine direction
 
 ## Build
 
