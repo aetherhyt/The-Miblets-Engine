@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MibletsEngine.dir\\Debug\\NoesisSystem.obj",
+            "outputs": [
+                "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\Engine\\Debug\\MibletsEngine.pdb",
+                "MibletsEngine.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glfw-build/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glfw-build/src/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glfw-build/docs/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-build/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-build/glm/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/Engine/cmake_install.cmake",
+		"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/Game/MibletsGame/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/7a8723669116010ff50d9d0251c206b4/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/cd62e3dc984b49f8392b1e1735719c84/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/CMakeFiles/d482e20b3a0b04314655503ec22b18c8/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

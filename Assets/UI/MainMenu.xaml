@@ -1,0 +1,14 @@
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid.Background>
+        <SolidColorBrush Color="#FF2C2C2C"/>
+    </Grid.Background>
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+        <TextBlock Text="MIBLETS" FontSize="48" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" Margin="0,0,0,50"/>
+        
+        <Button x:Name="StartButton" Content="START GAME" FontSize="24" Margin="0,10,0,10" Padding="10" Background="#FF4CAF50" Foreground="White" BorderThickness="0" />
+        <Button x:Name="OptionsButton" Content="OPTIONS" FontSize="24" Margin="0,10,0,10" Padding="10" Background="#FF2196F3" Foreground="White" BorderThickness="0" />
+        <Button x:Name="ExitButton" Content="EXIT" FontSize="24" Margin="0,10,0,10" Padding="10" Background="#FFF44336" Foreground="White" BorderThickness="0" />
+    </StackPanel>
+</Grid>

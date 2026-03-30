@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MibletsGame.dir\\Debug\\MibletsApp.obj",
+            "outputs": [
+                "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\Game\\MibletsGame\\MibletsGame.dir\\Debug\\vc145.pdb",
+                "MibletsGame.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

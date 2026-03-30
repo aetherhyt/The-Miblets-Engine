@@ -1,0 +1,10 @@
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\BUILD\CMAKEFILES\8A05B2A4E3CE9D97C97FE647B50CD780\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap -BC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/MibletsEngine.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

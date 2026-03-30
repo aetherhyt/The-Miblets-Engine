@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\eleme\Desktop\AetherHyt\MibletsEngine_VulkanBootstrap\build\_deps\glm-subbuild\CMakeFiles\7a8723669116010ff50d9d0251c206b4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE6C42F4-73A9-3112-8C52-BF5EB44A81F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

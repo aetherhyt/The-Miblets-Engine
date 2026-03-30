@@ -1,0 +1,10 @@
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\7A8723669116010FF50D9D0251C206B4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild -BC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glm-subbuild/glm-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,42 @@
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\BUILD\CMAKEFILES\40740DDA690259D700D3F9AF07D01D6A\TRIANGLE.FRAG.SPV.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/shaders
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.4.341.1\Bin\glslc.exe C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/Engine/RHI/Vulkan/Shaders/triangle.frag -o C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/shaders/triangle.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\BUILD\CMAKEFILES\40740DDA690259D700D3F9AF07D01D6A\TRIANGLE.VERT.SPV.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/shaders
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.4.341.1\Bin\glslc.exe C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/Engine/RHI/Vulkan/Shaders/triangle.vert -o C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/shaders/triangle.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\BUILD\CMAKEFILES\5F2B122BF7A6B1F837A4F65477998D95\COMPILESHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\ENGINE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap -BC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build --check-stamp-file C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/Engine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\eleme\Desktop\AetherHyt\MibletsEngine_VulkanBootstrap\build\CMakeFiles\40740dda690259d700d3f9af07d01d6a\triangle.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\eleme\Desktop\AetherHyt\MibletsEngine_VulkanBootstrap\build\CMakeFiles\40740dda690259d700d3f9af07d01d6a\triangle.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\eleme\Desktop\AetherHyt\MibletsEngine_VulkanBootstrap\build\CMakeFiles\5f2b122bf7a6b1f837a4f65477998d95\CompileShaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\eleme\Desktop\AetherHyt\MibletsEngine_VulkanBootstrap\Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\eleme\Desktop\AetherHyt\MibletsEngine_VulkanBootstrap\build\Engine\CMakeFiles\CompileShaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FD465C71-7B4F-3539-88CF-E1967CB7555C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

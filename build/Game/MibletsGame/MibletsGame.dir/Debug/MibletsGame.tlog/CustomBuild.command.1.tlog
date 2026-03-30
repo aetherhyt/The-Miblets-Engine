@@ -1,0 +1,10 @@
+^C:\USERS\ELEME\DESKTOP\AETHERHYT\MIBLETSENGINE_VULKANBOOTSTRAP\GAME\MIBLETSGAME\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap -BC:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build --check-stamp-file C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/Game/MibletsGame/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

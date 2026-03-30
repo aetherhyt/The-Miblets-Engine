@@ -1,0 +1,2984 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 3/30/2026 7:22:09 PM.
+      
+      Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.23
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/4.3.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/lld-link.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/lld-link.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link"
+      - "C:/Users/eleme/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/lld-link"
+      - "C:/Users/eleme/.dotnet/tools/lld-link.com"
+      - "C:/Users/eleme/.dotnet/tools/lld-link.exe"
+      - "C:/Users/eleme/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/mt.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/mt.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/mt"
+      - "C:/Users/eleme/AppData/Roaming/npm/mt.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/mt"
+      - "C:/Users/eleme/.dotnet/tools/mt.com"
+      - "C:/Users/eleme/.dotnet/tools/mt.exe"
+      - "C:/Users/eleme/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/rc.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/rc.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/rc"
+      - "C:/Users/eleme/AppData/Roaming/npm/rc.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/rc"
+      - "C:/Users/eleme/.dotnet/tools/rc.com"
+      - "C:/Users/eleme/.dotnet/tools/rc.exe"
+      - "C:/Users/eleme/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/MibletsEngine/bin/rc.com"
+      - "C:/Program Files (x86)/MibletsEngine/bin/rc.exe"
+      - "C:/Program Files (x86)/MibletsEngine/bin/rc"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/rc.com"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/rc.exe"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/rc"
+      - "C:/Program Files (x86)/MibletsEngine/rc.com"
+      - "C:/Program Files (x86)/MibletsEngine/rc.exe"
+      - "C:/Program Files (x86)/MibletsEngine/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-wzwa44"
+      binary: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-wzwa44"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-wzwa44'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0259d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/30/2026 7:22:11 PM.
+        
+        Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzwa44\\cmTC_0259d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzwa44\\Debug\\".
+          Creating directory "cmTC_0259d.dir\\Debug\\cmTC_0259d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0259d.dir\\Debug\\cmTC_0259d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0259d.dir\\Debug\\cmTC_0259d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_0259d.dir\\Debug\\\\" /Fd"cmTC_0259d.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_0259d.dir\\Debug\\\\" /Fd"cmTC_0259d.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzwa44\\Debug\\cmTC_0259d.exe" /INCREMENTAL /ILK:"cmTC_0259d.dir\\Debug\\cmTC_0259d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-wzwa44/Debug/cmTC_0259d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-wzwa44/Debug/cmTC_0259d.lib" /MACHINE:X64  /machine:x64 cmTC_0259d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0259d.vcxproj -> C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzwa44\\Debug\\cmTC_0259d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0259d.dir\\Debug\\cmTC_0259d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0259d.dir\\Debug\\cmTC_0259d.tlog\\cmTC_0259d.lastbuildstate".
+        Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzwa44\\cmTC_0259d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.67
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
+      - "CMakeLists.txt:15 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+      - "C:/Users/eleme/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/git.cmd.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/git.cmd.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/git.cmd"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/git.cmd.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/git.cmd.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/git.cmd.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/git.cmd.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/git.cmd"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/git.cmd"
+      - "C:/Users/eleme/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/eleme/.dotnet/tools/git.cmd.com"
+      - "C:/Users/eleme/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/eleme/.dotnet/tools/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/MibletsEngine/bin/git.cmd.com"
+      - "C:/Program Files (x86)/MibletsEngine/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/MibletsEngine/bin/git.cmd"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/git.cmd"
+      - "C:/Program Files (x86)/MibletsEngine/git.cmd.com"
+      - "C:/Program Files (x86)/MibletsEngine/git.cmd.exe"
+      - "C:/Program Files (x86)/MibletsEngine/git.cmd"
+      - "C:/Users/eleme/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/eleme/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/eleme/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/CMake/bin/git.com"
+      - "C:/Program Files/CMake/bin/git.exe"
+      - "C:/Program Files/CMake/bin/git"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/git.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/git.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/git.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/git.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 3/30/2026 7:22:19 PM.
+      
+      Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.60
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/4.3.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/lld-link.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/lld-link.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link"
+      - "C:/Users/eleme/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/lld-link"
+      - "C:/Users/eleme/.dotnet/tools/lld-link.com"
+      - "C:/Users/eleme/.dotnet/tools/lld-link.exe"
+      - "C:/Users/eleme/.dotnet/tools/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/MibletsEngine/bin/lld-link.com"
+      - "C:/Program Files (x86)/MibletsEngine/bin/lld-link.exe"
+      - "C:/Program Files (x86)/MibletsEngine/bin/lld-link"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/lld-link.com"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/lld-link"
+      - "C:/Program Files (x86)/MibletsEngine/lld-link.com"
+      - "C:/Program Files (x86)/MibletsEngine/lld-link.exe"
+      - "C:/Program Files (x86)/MibletsEngine/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-mcs6hs"
+      binary: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-mcs6hs"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-mcs6hs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_658ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/30/2026 7:22:20 PM.
+        
+        Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcs6hs\\cmTC_658ee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcs6hs\\Debug\\".
+          Creating directory "cmTC_658ee.dir\\Debug\\cmTC_658ee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_658ee.dir\\Debug\\cmTC_658ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_658ee.dir\\Debug\\cmTC_658ee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_658ee.dir\\Debug\\\\" /Fd"cmTC_658ee.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_658ee.dir\\Debug\\\\" /Fd"cmTC_658ee.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcs6hs\\Debug\\cmTC_658ee.exe" /INCREMENTAL /ILK:"cmTC_658ee.dir\\Debug\\cmTC_658ee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-mcs6hs/Debug/cmTC_658ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-mcs6hs/Debug/cmTC_658ee.lib" /MACHINE:X64  /machine:x64 cmTC_658ee.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_658ee.vcxproj -> C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcs6hs\\Debug\\cmTC_658ee.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_658ee.dir\\Debug\\cmTC_658ee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_658ee.dir\\Debug\\cmTC_658ee.tlog\\cmTC_658ee.lastbuildstate".
+        Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcs6hs\\cmTC_658ee.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-bex8e1"
+      binary: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-bex8e1"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-bex8e1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ddfb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/30/2026 7:22:22 PM.
+        
+        Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\cmTC_ddfb7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\Debug\\".
+          Creating directory "cmTC_ddfb7.dir\\Debug\\cmTC_ddfb7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ddfb7.dir\\Debug\\cmTC_ddfb7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ddfb7.dir\\Debug\\cmTC_ddfb7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ddfb7.dir\\Debug\\\\" /Fd"cmTC_ddfb7.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ddfb7.dir\\Debug\\\\" /Fd"cmTC_ddfb7.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\src.c"
+          src.c
+        C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\cmTC_ddfb7.vcxproj]
+        Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\cmTC_ddfb7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\cmTC_ddfb7.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bex8e1\\cmTC_ddfb7.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-m6ghdy"
+      binary: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-m6ghdy"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-m6ghdy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ffb69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/30/2026 7:22:23 PM.
+        
+        Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\cmTC_ffb69.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\Debug\\".
+          Creating directory "cmTC_ffb69.dir\\Debug\\cmTC_ffb69.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ffb69.dir\\Debug\\cmTC_ffb69.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ffb69.dir\\Debug\\cmTC_ffb69.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ffb69.dir\\Debug\\\\" /Fd"cmTC_ffb69.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ffb69.dir\\Debug\\\\" /Fd"cmTC_ffb69.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\Debug\\cmTC_ffb69.exe" /INCREMENTAL /ILK:"cmTC_ffb69.dir\\Debug\\cmTC_ffb69.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-m6ghdy/Debug/cmTC_ffb69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-m6ghdy/Debug/cmTC_ffb69.lib" /MACHINE:X64  /machine:x64 cmTC_ffb69.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\cmTC_ffb69.vcxproj]
+        Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\cmTC_ffb69.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\cmTC_ffb69.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6ghdy\\cmTC_ffb69.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-ui6g5s"
+      binary: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-ui6g5s"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-ui6g5s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f9dad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/30/2026 7:22:24 PM.
+        
+        Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\cmTC_f9dad.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\Debug\\".
+          Creating directory "cmTC_f9dad.dir\\Debug\\cmTC_f9dad.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f9dad.dir\\Debug\\cmTC_f9dad.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f9dad.dir\\Debug\\cmTC_f9dad.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f9dad.dir\\Debug\\\\" /Fd"cmTC_f9dad.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f9dad.dir\\Debug\\\\" /Fd"cmTC_f9dad.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\Debug\\cmTC_f9dad.exe" /INCREMENTAL /ILK:"cmTC_f9dad.dir\\Debug\\cmTC_f9dad.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-ui6g5s/Debug/cmTC_f9dad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/eleme/Desktop/AetherHyt/MibletsEngine_VulkanBootstrap/build/CMakeFiles/CMakeScratch/TryCompile-ui6g5s/Debug/cmTC_f9dad.lib" /MACHINE:X64  /machine:x64 cmTC_f9dad.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\cmTC_f9dad.vcxproj]
+        Done Building Project "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\cmTC_f9dad.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\cmTC_f9dad.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\eleme\\Desktop\\AetherHyt\\MibletsEngine_VulkanBootstrap\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ui6g5s\\cmTC_f9dad.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindDoxygen.cmake:770 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
+      - "build/_deps/glfw-src/docs/CMakeLists.txt:35 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/doxygen.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/doxygen.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/doxygen"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/doxygen.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/doxygen.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/doxygen"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen"
+      - "C:/Windows/System32/doxygen.com"
+      - "C:/Windows/System32/doxygen.exe"
+      - "C:/Windows/System32/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/System32/wbem/doxygen.com"
+      - "C:/Windows/System32/wbem/doxygen.exe"
+      - "C:/Windows/System32/wbem/doxygen"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/System32/OpenSSH/doxygen.com"
+      - "C:/Windows/System32/OpenSSH/doxygen.exe"
+      - "C:/Windows/System32/OpenSSH/doxygen"
+      - "C:/Program Files/Git/cmd/doxygen.com"
+      - "C:/Program Files/Git/cmd/doxygen.exe"
+      - "C:/Program Files/Git/cmd/doxygen"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/doxygen.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/doxygen.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/doxygen"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen"
+      - "C:/Program Files/nodejs/doxygen.com"
+      - "C:/Program Files/nodejs/doxygen.exe"
+      - "C:/Program Files/nodejs/doxygen"
+      - "C:/Program Files/dotnet/doxygen.com"
+      - "C:/Program Files/dotnet/doxygen.exe"
+      - "C:/Program Files/dotnet/doxygen"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/doxygen.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/doxygen.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/doxygen"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/doxygen.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/doxygen.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/doxygen.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/doxygen.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/doxygen"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/doxygen.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/doxygen.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/doxygen"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/doxygen.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/doxygen.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/doxygen"
+      - "C:/Users/eleme/AppData/Roaming/npm/doxygen.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/doxygen.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/doxygen"
+      - "C:/Users/eleme/.dotnet/tools/doxygen.com"
+      - "C:/Users/eleme/.dotnet/tools/doxygen.exe"
+      - "C:/Users/eleme/.dotnet/tools/doxygen"
+      - "C:/Program Files/bin/doxygen.com"
+      - "C:/Program Files/bin/doxygen.exe"
+      - "C:/Program Files/bin/doxygen"
+      - "C:/Program Files/sbin/doxygen.com"
+      - "C:/Program Files/sbin/doxygen.exe"
+      - "C:/Program Files/sbin/doxygen"
+      - "C:/Program Files/doxygen.com"
+      - "C:/Program Files/doxygen.exe"
+      - "C:/Program Files/doxygen"
+      - "C:/Program Files (x86)/bin/doxygen.com"
+      - "C:/Program Files (x86)/bin/doxygen.exe"
+      - "C:/Program Files (x86)/bin/doxygen"
+      - "C:/Program Files (x86)/sbin/doxygen.com"
+      - "C:/Program Files (x86)/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/sbin/doxygen"
+      - "C:/Program Files (x86)/doxygen.com"
+      - "C:/Program Files (x86)/doxygen.exe"
+      - "C:/Program Files (x86)/doxygen"
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/Program Files/CMake/sbin/doxygen.com"
+      - "C:/Program Files/CMake/sbin/doxygen.exe"
+      - "C:/Program Files/CMake/sbin/doxygen"
+      - "C:/Program Files/CMake/doxygen.com"
+      - "C:/Program Files/CMake/doxygen.exe"
+      - "C:/Program Files/CMake/doxygen"
+      - "C:/Program Files (x86)/MibletsEngine/bin/doxygen.com"
+      - "C:/Program Files (x86)/MibletsEngine/bin/doxygen.exe"
+      - "C:/Program Files (x86)/MibletsEngine/bin/doxygen"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/doxygen.com"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/doxygen"
+      - "C:/Program Files (x86)/MibletsEngine/doxygen.com"
+      - "C:/Program Files (x86)/MibletsEngine/doxygen.exe"
+      - "C:/Program Files (x86)/MibletsEngine/doxygen"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.com"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
+      - "/REGISTRY-NOTFOUND/bin/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:409 (find_path)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/include/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/vulkan/vulkan.h"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/vulkan/vulkan.h"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/vulkan/vulkan.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/vulkan/vulkan.h"
+      - "C:/Windows/System32/vulkan/vulkan.h"
+      - "C:/Windows/vulkan/vulkan.h"
+      - "C:/Windows/System32/wbem/vulkan/vulkan.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/vulkan/vulkan.h"
+      - "C:/Windows/System32/OpenSSH/vulkan/vulkan.h"
+      - "C:/Program Files/Git/cmd/vulkan/vulkan.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vulkan/vulkan.h"
+      - "C:/Program Files/nodejs/vulkan/vulkan.h"
+      - "C:/Program Files/dotnet/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/vulkan/vulkan.h"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/vulkan/vulkan.h"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/vulkan/vulkan.h"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/vulkan/vulkan.h"
+      - "C:/Users/eleme/AppData/Roaming/npm/vulkan/vulkan.h"
+      - "C:/Users/eleme/.dotnet/tools/vulkan/vulkan.h"
+      - "C:/Program Files/include/vulkan/vulkan.h"
+      - "C:/Program Files/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/include/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/MibletsEngine/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/MibletsEngine/vulkan/vulkan.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:416 (find_library)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/lib/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/lib/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "/bin/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/MibletsEngine/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:424 (find_program)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslc.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslc.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslc"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslc.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslc.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslc"
+      - "C:/Windows/System32/glslc.com"
+      - "C:/Windows/System32/glslc.exe"
+      - "C:/Windows/System32/glslc"
+      - "C:/Windows/glslc.com"
+      - "C:/Windows/glslc.exe"
+      - "C:/Windows/glslc"
+      - "C:/Windows/System32/wbem/glslc.com"
+      - "C:/Windows/System32/wbem/glslc.exe"
+      - "C:/Windows/System32/wbem/glslc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Windows/System32/OpenSSH/glslc.com"
+      - "C:/Windows/System32/OpenSSH/glslc.exe"
+      - "C:/Windows/System32/OpenSSH/glslc"
+      - "C:/Program Files/Git/cmd/glslc.com"
+      - "C:/Program Files/Git/cmd/glslc.exe"
+      - "C:/Program Files/Git/cmd/glslc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
+      - "C:/Program Files/nodejs/glslc.com"
+      - "C:/Program Files/nodejs/glslc.exe"
+      - "C:/Program Files/nodejs/glslc"
+      - "C:/Program Files/dotnet/glslc.com"
+      - "C:/Program Files/dotnet/glslc.exe"
+      - "C:/Program Files/dotnet/glslc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslc.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslc.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslc"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslc.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslc.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslc"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslc.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslc.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslc"
+      - "C:/Users/eleme/.dotnet/tools/glslc.com"
+      - "C:/Users/eleme/.dotnet/tools/glslc.exe"
+      - "C:/Users/eleme/.dotnet/tools/glslc"
+      - "C:/Program Files/bin/glslc.com"
+      - "C:/Program Files/bin/glslc.exe"
+      - "C:/Program Files/bin/glslc"
+      - "C:/Program Files/sbin/glslc.com"
+      - "C:/Program Files/sbin/glslc.exe"
+      - "C:/Program Files/sbin/glslc"
+      - "C:/Program Files/glslc.com"
+      - "C:/Program Files/glslc.exe"
+      - "C:/Program Files/glslc"
+      - "C:/Program Files (x86)/bin/glslc.com"
+      - "C:/Program Files (x86)/bin/glslc.exe"
+      - "C:/Program Files (x86)/bin/glslc"
+      - "C:/Program Files (x86)/sbin/glslc.com"
+      - "C:/Program Files (x86)/sbin/glslc.exe"
+      - "C:/Program Files (x86)/sbin/glslc"
+      - "C:/Program Files (x86)/glslc.com"
+      - "C:/Program Files (x86)/glslc.exe"
+      - "C:/Program Files (x86)/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files/CMake/sbin/glslc.com"
+      - "C:/Program Files/CMake/sbin/glslc.exe"
+      - "C:/Program Files/CMake/sbin/glslc"
+      - "C:/Program Files/CMake/glslc.com"
+      - "C:/Program Files/CMake/glslc.exe"
+      - "C:/Program Files/CMake/glslc"
+      - "C:/Program Files (x86)/MibletsEngine/bin/glslc.com"
+      - "C:/Program Files (x86)/MibletsEngine/bin/glslc.exe"
+      - "C:/Program Files (x86)/MibletsEngine/bin/glslc"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/glslc.com"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/glslc.exe"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/glslc"
+      - "C:/Program Files (x86)/MibletsEngine/glslc.com"
+      - "C:/Program Files (x86)/MibletsEngine/glslc.exe"
+      - "C:/Program Files (x86)/MibletsEngine/glslc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:432 (find_program)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslangValidator.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslangValidator.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslangValidator"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslangValidator.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslangValidator.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslangValidator"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslangValidator.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslangValidator.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslangValidator"
+      - "C:/Windows/System32/glslangValidator.com"
+      - "C:/Windows/System32/glslangValidator.exe"
+      - "C:/Windows/System32/glslangValidator"
+      - "C:/Windows/glslangValidator.com"
+      - "C:/Windows/glslangValidator.exe"
+      - "C:/Windows/glslangValidator"
+      - "C:/Windows/System32/wbem/glslangValidator.com"
+      - "C:/Windows/System32/wbem/glslangValidator.exe"
+      - "C:/Windows/System32/wbem/glslangValidator"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.com"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.exe"
+      - "C:/Windows/System32/OpenSSH/glslangValidator"
+      - "C:/Program Files/Git/cmd/glslangValidator.com"
+      - "C:/Program Files/Git/cmd/glslangValidator.exe"
+      - "C:/Program Files/Git/cmd/glslangValidator"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
+      - "C:/Program Files/nodejs/glslangValidator.com"
+      - "C:/Program Files/nodejs/glslangValidator.exe"
+      - "C:/Program Files/nodejs/glslangValidator"
+      - "C:/Program Files/dotnet/glslangValidator.com"
+      - "C:/Program Files/dotnet/glslangValidator.exe"
+      - "C:/Program Files/dotnet/glslangValidator"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslangValidator.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslangValidator.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslangValidator"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslangValidator.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslangValidator.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslangValidator"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslangValidator.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslangValidator.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslangValidator"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslangValidator.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslangValidator.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslangValidator"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslangValidator.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslangValidator.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslangValidator"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslangValidator.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslangValidator.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslangValidator"
+      - "C:/Users/eleme/.dotnet/tools/glslangValidator.com"
+      - "C:/Users/eleme/.dotnet/tools/glslangValidator.exe"
+      - "C:/Users/eleme/.dotnet/tools/glslangValidator"
+      - "C:/Program Files/bin/glslangValidator.com"
+      - "C:/Program Files/bin/glslangValidator.exe"
+      - "C:/Program Files/bin/glslangValidator"
+      - "C:/Program Files/sbin/glslangValidator.com"
+      - "C:/Program Files/sbin/glslangValidator.exe"
+      - "C:/Program Files/sbin/glslangValidator"
+      - "C:/Program Files/glslangValidator.com"
+      - "C:/Program Files/glslangValidator.exe"
+      - "C:/Program Files/glslangValidator"
+      - "C:/Program Files (x86)/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bin/glslangValidator"
+      - "C:/Program Files (x86)/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/sbin/glslangValidator"
+      - "C:/Program Files (x86)/glslangValidator.com"
+      - "C:/Program Files (x86)/glslangValidator.exe"
+      - "C:/Program Files (x86)/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files/CMake/sbin/glslangValidator.com"
+      - "C:/Program Files/CMake/sbin/glslangValidator.exe"
+      - "C:/Program Files/CMake/sbin/glslangValidator"
+      - "C:/Program Files/CMake/glslangValidator.com"
+      - "C:/Program Files/CMake/glslangValidator.exe"
+      - "C:/Program Files/CMake/glslangValidator"
+      - "C:/Program Files (x86)/MibletsEngine/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/MibletsEngine/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/MibletsEngine/bin/glslangValidator"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/glslangValidator"
+      - "C:/Program Files (x86)/MibletsEngine/glslangValidator.com"
+      - "C:/Program Files (x86)/MibletsEngine/glslangValidator.exe"
+      - "C:/Program Files (x86)/MibletsEngine/glslangValidator"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:409 (find_path)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.341.1/include/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/include/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    found: "C:/VulkanSDK/1.4.341.1/include/"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+        - "C:\\VulkanSDK\\1.4.341.1\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:416 (find_library)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.341.1/lib/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/lib/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "/bin/"
+    found: "C:/VulkanSDK/1.4.341.1/Lib/vulkan-1.lib"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+        - "C:\\VulkanSDK\\1.4.341.1\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/MibletsEngine/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:424 (find_program)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.341.1/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.341.1/bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.341.1/Bin/glslc.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+        - "C:\\VulkanSDK\\1.4.341.1\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:432 (find_program)"
+      - "CMakeLists.txt:17 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.341.1/bin/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.341.1/bin/glslangValidator.com"
+    found: "C:/VulkanSDK/1.4.341.1/Bin/glslangValidator.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+        - "C:\\VulkanSDK\\1.4.341.1\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "Engine/CMakeLists.txt:11 (find_program)"
+    mode: "program"
+    variable: "GLSLC_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/eleme/AppData/Roaming/npm/"
+      - "C:/Users/eleme/.dotnet/tools/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/MibletsEngine/bin/"
+      - "C:/Program Files (x86)/MibletsEngine/sbin/"
+      - "C:/Program Files (x86)/MibletsEngine/"
+    searched_directories:
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslc.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslc.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand/glslc"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslc.com"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslc.exe"
+      - "C:/Users/eleme/AppData/Roaming/Code - Insiders/User/globalStorage/github.copilot-chat/copilotCli/glslc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glslc"
+      - "C:/Windows/System32/glslc.com"
+      - "C:/Windows/System32/glslc.exe"
+      - "C:/Windows/System32/glslc"
+      - "C:/Windows/glslc.com"
+      - "C:/Windows/glslc.exe"
+      - "C:/Windows/glslc"
+      - "C:/Windows/System32/wbem/glslc.com"
+      - "C:/Windows/System32/wbem/glslc.exe"
+      - "C:/Windows/System32/wbem/glslc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Windows/System32/OpenSSH/glslc.com"
+      - "C:/Windows/System32/OpenSSH/glslc.exe"
+      - "C:/Windows/System32/OpenSSH/glslc"
+      - "C:/Program Files/Git/cmd/glslc.com"
+      - "C:/Program Files/Git/cmd/glslc.exe"
+      - "C:/Program Files/Git/cmd/glslc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
+      - "C:/Program Files/nodejs/glslc.com"
+      - "C:/Program Files/nodejs/glslc.exe"
+      - "C:/Program Files/nodejs/glslc"
+      - "C:/Program Files/dotnet/glslc.com"
+      - "C:/Program Files/dotnet/glslc.exe"
+      - "C:/Program Files/dotnet/glslc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslc.com"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslc.exe"
+      - "C:/Users/eleme/AppData/Local/Microsoft/WindowsApps/glslc"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslc.com"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslc.exe"
+      - "C:/Users/eleme/AppData/Local/Programs/Microsoft VS Code Insiders/bin/glslc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/glslc"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslc.com"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslc.exe"
+      - "C:/Users/eleme/AppData/Roaming/npm/glslc"
+      - "C:/Users/eleme/.dotnet/tools/glslc.com"
+      - "C:/Users/eleme/.dotnet/tools/glslc.exe"
+      - "C:/Users/eleme/.dotnet/tools/glslc"
+      - "C:/VulkanSDK/1.4.341.1/Bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.341.1/Bin/glslc.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eleme\\AppData\\Roaming\\Code - Insiders\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\eleme\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\eleme\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\eleme\\AppData\\Roaming\\npm"
+        - "C:\\Users\\eleme\\.dotnet\\tools"
+        - "C:\\VulkanSDK\\1.4.341.1\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MibletsEngine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MibletsEngine"
+...
